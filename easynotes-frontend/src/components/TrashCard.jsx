@@ -32,7 +32,7 @@ function TrashCard({ note, onRestore, onDeleteForever }) {
           Deleted &middot; last updated {formatDate(note.updatedAt)}
         </p>
 
-        <div className="mt-3 flex flex-wrap items-center gap-1 text-sm font-medium">
+        <div className="mt-3 flex items-center gap-1 text-sm font-medium">
           <button
             onClick={() => onRestore(note.id)}
             className="inline-flex items-center gap-1.5 rounded-lg px-3 py-1.5 text-brand-600 dark:text-brand-400 transition-colors hover:bg-brand-50 dark:hover:bg-brand-500/10"
