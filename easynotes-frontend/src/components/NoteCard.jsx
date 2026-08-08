@@ -75,7 +75,7 @@ function NoteCard({ note, onDelete, onTogglePin }) {
           Updated {formatDate(note.updatedAt || note.createdAt)}
         </p>
 
-        <div className="mt-3 flex items-center gap-1 text-sm font-medium">
+        <div className="mt-3 flex flex-wrap items-center gap-1 text-sm font-medium">
           <Link
             to={`/notes/${note.id}`}
             className="inline-flex items-center gap-1.5 rounded-lg px-3 py-1.5 text-slate-600 dark:text-slate-300 transition-colors hover:bg-slate-100 dark:hover:bg-slate-700"

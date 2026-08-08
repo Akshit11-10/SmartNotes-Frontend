@@ -118,7 +118,7 @@ function NoteDetail() {
             {note.content}
           </p>
 
-          <div className="mt-6 flex gap-2">
+          <div className="mt-6 flex flex-wrap gap-2">
             <Link
               to={`/notes/${note.id}/edit`}
               className="inline-flex items-center gap-1.5 rounded-lg bg-brand-600 px-4 py-2 text-sm font-semibold text-white hover:bg-brand-700"

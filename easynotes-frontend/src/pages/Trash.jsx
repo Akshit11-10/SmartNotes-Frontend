@@ -109,7 +109,7 @@ function Trash() {
           </div>
 
           {pageInfo.totalPages > 1 && (
-            <div className="mt-6 flex items-center justify-center gap-3">
+            <div className="mt-6 flex flex-wrap items-center justify-center gap-3">
               <button
                 onClick={() => setPage((p) => Math.max(0, p - 1))}
                 disabled={page === 0}
